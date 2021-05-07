@@ -10,6 +10,7 @@
     <el-input
       ref="input"
       v-bind="[$props, $attrs]"
+      :size="size
       @input="handleInput"
       @change="handleChange"
       @focus="handleFocus"
